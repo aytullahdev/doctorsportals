@@ -11,7 +11,7 @@ const Services = () => {
         <h1 className="text-3xl uppercase pb-10 ">Services We Provide</h1>
       </div>
       {/* Services Section */}
-      <div className="grid mt-5 grid-cols-1 lg:grid-cols-3 gap-5">
+      <div className="grid mt-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {/* Services card */}
           <div className="rounded  shadow-md flex p-5 flex-col items-center justify-center">
               <div>
@@ -43,8 +43,8 @@ const Services = () => {
           
       </div>
       {/* Details about work */}
-      <div className="p-5 my-10 lg:p-10 grid grid-cols-1 lg:grid-cols-2">
-          <div className="order-2 lg:order-1">
+      <div className="p-5 my-10 lg:p-10 grid grid-cols-1 md:gap-5  md:grid-cols-2 lg:grid-cols-2">
+          <div className="order-2 md:order-1 lg:order-1">
               <img src={treatmentimg} className="  lg:w-[460px] h-[580px] rounded " alt="" />
           </div>
           <div className="py-20 order-1 lg:order-2 ">

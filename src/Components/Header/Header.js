@@ -11,7 +11,7 @@ const Header = () => {
         className=" bg-cover px-10 py-20"
         style={{ backgroundImage: `url("${bgimg}")` }}
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="grid grid-cols-1  lg:grid-cols-2">
           <div className="order-2 lg:order-1 py-10">
             <h1 className="text-xl font-semibold lg:text-5xl line- uppercase leading-snug">
               Your New Smile Starts Here
@@ -30,7 +30,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 mt-2 lg:grid-cols-3 gap-5 mx-10">
+      <div className="grid grid-cols-1 mt-2 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-10">
         <div className="bg-gradient-to-l text-white from-secondary to-primary p-5 flex justify-around items-center rounded ">
           <div className="mr-5">
             <img src={clockicon} className="w-[200px] h-[90px]" alt="" />
