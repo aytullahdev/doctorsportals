@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className=" overflow-hidden">
       <div class="navbar bg-base-10 mx-5">
         <div class="navbar-start ">
           <a class="btn btn-ghost normal-case text-xl">Doctors Portal</a>

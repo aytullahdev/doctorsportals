@@ -21,7 +21,7 @@ const Header = () => {
               mollitia eligendi commodi, autem alias fugiat harum perspiciatis
               nam sit quam.
             </p>
-            <button className="btn bg-gradient-to-l text-white from-secondary to-primary">
+            <button className="btn bg-gradient-to-l border-none text-white from-secondary to-primary">
               GET STARTED
             </button>
           </div>
