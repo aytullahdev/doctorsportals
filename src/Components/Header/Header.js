@@ -13,10 +13,10 @@ const Header = () => {
       >
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="order-2 lg:order-1 py-10">
-            <h1 className="text-5xl line- uppercase leading-snug">
+            <h1 className="text-xl font-semibold lg:text-5xl line- uppercase leading-snug">
               Your New Smile Starts Here
             </h1>
-            <p className="text-lg capitalize py-2 leading-relaxed">
+            <p className="text-sm text-justify lg:text-lg capitalize py-2 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               mollitia eligendi commodi, autem alias fugiat harum perspiciatis
               nam sit quam.
@@ -33,11 +33,11 @@ const Header = () => {
       <div className="grid grid-cols-1 mt-2 lg:grid-cols-3 gap-5 mx-10">
         <div className="bg-gradient-to-l text-white from-secondary to-primary p-5 flex justify-around items-center rounded ">
           <div className="mr-5">
-            <img src={clockicon} className="w-[90px] h-[90px]" alt="" />
+            <img src={clockicon} className="w-[200px] h-[90px]" alt="" />
           </div>
           <div className="text-left ">
-            <h4 className="text-xl font-semibold ">Opening Hours</h4>
-            <p className="text-[15px] py-2 leading-relaxed">
+            <h4 className=" text-sm lg:text-xl font-semibold ">Opening Hours</h4>
+            <p className=" text-xs lg:text-[15px] py-2 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates, et.
             </p>
@@ -48,8 +48,8 @@ const Header = () => {
             <img src={locationicon} className="w-[90px] h-[90px]" alt="" />
           </div>
           <div className="text-left ">
-            <h4 className="text-xl font-semibold ">Visit our location</h4>
-            <p className="text-[15px] py-2 leading-relaxed">
+            <h4 className=" text-sm lg:text-xl font-semibold ">Visit our location</h4>
+            <p className=" text-xs lg:text-[15px] py-2 leading-relaxed">
               Brooklyn, NY 10036, United States
             </p>
           </div>
@@ -59,8 +59,8 @@ const Header = () => {
             <img src={phoneicon} className="w-[90px] h-[90px] " alt="" />
           </div>
           <div className="text-left ">
-            <h4 className="text-xl font-semibold ">Contact us now</h4>
-            <p className="text-[15px] py-2 leading-relaxed">+000 123 456789</p>
+            <h4 className=" text-sm lg:text-xl font-semibold ">Contact us now</h4>
+            <p className=" text-xs lg:text-[15px] py-2 leading-relaxed">+000 123 456789</p>
           </div>
         </div>
       </div>
