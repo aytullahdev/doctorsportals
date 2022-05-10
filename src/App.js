@@ -1,5 +1,7 @@
 import './App.css';
 import Appoinmentbanner from './Components/Banners/Appoinmentbanner';
+import Contuctus from './Components/Contuctus/Contuctus';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Services from './Components/Services/Services';
@@ -13,6 +15,8 @@ function App() {
        <Services/>
        <Appoinmentbanner/>
        <Testimonial/>
+       <Contuctus/>
+       <Footer/>
     </div>
   );
 }
