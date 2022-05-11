@@ -14,12 +14,13 @@ const Appoinimentdatebanner = () => {
         style={{ backgroundImage: `url("${bgimg}")` }}
       >
         <div className="grid grid-cols-1  lg:grid-cols-2">
-          <div className="order-2   flex justify-center items-center  lg:order-1 ">
+          <div className="order-2  mt-10 lg:mt-0  flex justify-center items-center  lg:order-1 ">
             <DayPicker
               mode="single"
               className="bg-white shadow rounded-lg p-10"
               selected={selected}
               onSelect={setSelected}
+              onDayClick={setSelected}
             />
           </div>
           <div className="order-1 lg:order-2  lg:pl-10">
