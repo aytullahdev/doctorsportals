@@ -1,22 +1,17 @@
 import './App.css';
-import Appoinmentbanner from './Components/Banners/Appoinmentbanner';
-import Contuctus from './Components/Contuctus/Contuctus';
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
-import Services from './Components/Services/Services';
-import Testimonial from './Components/Testimonial/Testimonial';
-
+import Home from './Components/Home'
+import Appoinimentdatebanner from './Components/Banners/Appoinimentdatebanner';
+import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div>
        <Navbar/>
-       <Header/>
-       <Services/>
-       <Appoinmentbanner/>
-       <Testimonial/>
-       <Contuctus/>
-       <Footer/>
+       <Routes>
+         <Route path='/' element={<Home/>}/>
+         <Route path='/appoinment' element={<Appoinimentdatebanner/>}/>
+       </Routes>
+       
     </div>
   );
 }
